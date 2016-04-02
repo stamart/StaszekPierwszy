@@ -1,5 +1,6 @@
 package aplikacja1;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 /**
@@ -7,6 +8,13 @@ import java.util.Scanner;
  */
 public class Witojcie {
     public static void main(String[] args) {
+        scanner();
+
+
+
+    }
+
+    private static void scanner() {
         String jakciezwa;
         Scanner czotoj;
         czotoj = new Scanner(System.in);
@@ -14,7 +22,10 @@ public class Witojcie {
 
         System.out.println("Jak ci na imię");
         jakciezwa = czotoj.nextLine();
-        System.out.println("witaj pierdplony "+ jakciezwa);
-
+        System.out.println("witaj "+ jakciezwa);
     }
+
+
+
+
 }

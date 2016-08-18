@@ -24,4 +24,6 @@ public class Zapis {
       zapis.println("Ala ma kota, a kot ma Alę");
       zapis.close();
     }
+    
+    
 }

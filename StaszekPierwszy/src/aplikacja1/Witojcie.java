@@ -16,8 +16,7 @@ public class Witojcie {
 
     private static void scanner() {
         String jakciezwa;
-        Scanner czotoj;
-        czotoj = new Scanner(System.in);
+        Scanner czotoj = new Scanner(System.in);
 
 
         System.out.println("Jak ci na imię");
